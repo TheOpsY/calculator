@@ -6,7 +6,7 @@ phases:
     - echo "The program entered the pre-build phase today"
   build:
     commands:
-    - echo "Entered build phase"
+    - echo "Entered build phase today"
     - mvn clean prepare-package war:exploded
   post_build:
     commands:
